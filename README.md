@@ -31,11 +31,13 @@ Example questions:
 ## Files
 
 ```
-├── SKILL.md                  # Instructions for AI agents
-├── references/
-│   └── articles.txt          # All 580+ articles (5.5 MB)
-└── scripts/
-    └── sync.sh               # Update script
+├── README.md                     # You are here
+└── dieworkwear/                  # The skill
+    ├── SKILL.md                  # Instructions for AI agents
+    ├── references/
+    │   └── articles.txt          # All 580+ articles (5.5 MB)
+    └── scripts/
+        └── sync.sh               # Update script
 ```
 
 ## Updates
@@ -52,7 +54,7 @@ git pull origin main
 Want more frequent updates? Run the sync yourself:
 
 ```bash
-./scripts/sync.sh
+./dieworkwear/scripts/sync.sh
 ```
 
 Requires [sitefetch](https://github.com/egoist/sitefetch):
