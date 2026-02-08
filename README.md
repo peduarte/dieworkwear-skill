@@ -53,6 +53,8 @@ npm install -g sitefetch
 
 ## Credits
 
+Built by [Pedro Duarte](https://twitter.com/peduarte)
+
 All content © [Derek Guy / Die, Workwear!](https://dieworkwear.com)
 
 This skill is for personal reference only.
