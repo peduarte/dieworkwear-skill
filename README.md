@@ -38,9 +38,18 @@ Example questions:
     └── sync.sh               # Update script
 ```
 
-## Updating
+## Updates
 
-Fetch the latest articles:
+**This repo is updated automatically every Sunday** with the latest articles from dieworkwear.com.
+
+To get the latest content:
+```bash
+git pull origin main
+```
+
+### Manual sync
+
+Want more frequent updates? Run the sync yourself:
 
 ```bash
 ./scripts/sync.sh
@@ -49,6 +58,12 @@ Fetch the latest articles:
 Requires [sitefetch](https://github.com/egoist/sitefetch):
 ```bash
 npm install -g sitefetch
+```
+
+Or set up a cron job to pull weekly:
+```bash
+# Pull latest every Sunday at midnight
+0 0 * * 0 cd /path/to/dieworkwear-skill && git pull origin main
 ```
 
 ## Credits
